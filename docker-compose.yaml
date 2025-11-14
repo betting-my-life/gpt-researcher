@@ -37,7 +37,7 @@ services:
       - ./outputs:/app/outputs
     restart: always
     ports:
-      - 4000:4000
+      - 3000:4000
 
   gpt-researcher-tests:
     image: gptresearcher/gpt-researcher-tests
